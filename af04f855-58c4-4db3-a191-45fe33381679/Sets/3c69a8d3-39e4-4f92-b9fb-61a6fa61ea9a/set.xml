@@ -160,7 +160,7 @@ Combat Action: Deal 1 damage to an army unit you control at this planet then put
 			<property name="Attack"         value=""/>
 			<property name="Health"         value=""/>
 			<property name="Command"        value=""/>
-			<property name="Shield"         value="1"/>
+			<property name="Shield"         value="2"/>
 			<property name="ResourceBonus"  value=""/>
 			<property name="CardBonus"      value=""/>
 			<property name="ErrataText"     value=""/>
@@ -192,8 +192,8 @@ Combat Action: Deal 1 damage to an army unit you control at this planet then put
 			<property name="Traits"         value="Wargear. Weapon. Khorne."/>
 			<property name="Text"           value="Attach to a Khorne unit.
 Limit 1 per unit.
-Attached unit gets +1 ATK. If attached unit is a bloodied warlord it instead gets +2 HP.
-Bloodthirst - During a combat round in which 1 or more units have been destroyed at this planet, exhaust this card to remove up to 2 damage from attached unit."/>
+Attached unit gets +1 ATK. If attached unit is a Bloodied warlord it instead gets +2 HP.
+Reaction: After a unit is destroyed at this planet, exhaust this card to remove up to 2 damage from attached unit."/>
 			<property name="Keywords"       value=""/>
 			<property name="Unique"         value=""/>
 			<property name="Cost"           value="1"/>
