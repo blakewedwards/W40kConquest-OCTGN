@@ -1158,7 +1158,7 @@ Reaction: When an army unit you control at this planet is destroyed, take contro
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Tactic."/>
             <property name="Text"           value="Play only during a battle.
-Interrupt: When your warlord would be defeated by taking damage, remove all damage from it instead. At the end of the phase or when another event named "Necrodermis" is played, you lose the game."/>
+Interrupt: When your warlord would be defeated by taking damage, remove all damage from it instead. At the end of the phase or when another event named 'Necrodermis' is played, you lose the game."/>
             <property name="Keywords"       value=""/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="1"/>
