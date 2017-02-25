@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="07-NavidaPrime Cycle" id="ffc8bea9-c162-43df-a73f-91e29fa519bb" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.2">
+<set name="07-NavidaPrime Cycle" id="ffc8bea9-c162-43df-a73f-91e29fa519bb" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.3">
     <cards>
         <card id="ec83795b-7251-4277-a4e4-1e017f89c3c7" name="Shaper Agnok">
             <property name="Faction"        value="Tau"/>
@@ -309,7 +309,7 @@ Headquarter Action: Exhaust this attachment to infest attached planet. If the pl
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Khorne. Daemon. Cultist."/>
-            <property name="Text"           value="Interrupt: When this card leaves play, attach it to an army unit you control at the same planet as an attachment with the text: 'Attach to a non-Daemon, non-Vehicle, army unit. Attached unit gets +3 ATK, +3 HP and Khorne trait.' (Limit once per round.)"/>
+            <property name="Text"           value="Interrupt: When this card leaves play, attach it to an army unit you control at the same planet as an attachment with the text: 'Attach to a non-Daemon, non-Vehicle, army unit. Attached unit gets +3 ATK, +3 HP and Khorne trait.'"/>
             <property name="Keywords" value=""/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="4"/>
@@ -762,7 +762,7 @@ Forced Reaction: After you play a Torture card, deal 1 damage to a target non-wa
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Tactic."/>
             <property name="Text"           value="Reaction: After a unit you control enters play from your discard pile at a planet, put a target [necron] unit with printed cost 3 or lower into play from your discard pile at the same planet."/>
-            <property name="Keywords" 	    value=""/>
+            <property name="Keywords"       value=""/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="1"/>
             <property name="Attack"         value=""/>
@@ -780,7 +780,7 @@ Forced Reaction: After you play a Torture card, deal 1 damage to a target non-wa
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Tactic."/>
             <property name="Text"           value="Interrupt: When your warlord is chosen as a defender, deal 1 unpreventable damage to the attacker. Then, if your warlord is exhausted, draw one card. (Max 1 per round.)"/>
-            <property name="Keywords" 	    value=""/>
+            <property name="Keywords"       value=""/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
@@ -792,9 +792,401 @@ Forced Reaction: After you play a Torture card, deal 1 damage to a target non-wa
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="40"/>
         </card>
-</cards>
+        <card id="cd4620e2-0e95-410b-85e4-ca3ad579e684" name="Korporal Snagbrat">
+            <property name="Faction"        value="Ork"/>
+            <property name="Type"           value="Warlord"/>
+            <property name="Loyalty"        value="Squad"/>
+            <property name="Traits"         value="Soldier. Blood Axe."/>
+            <property name="Text"           value="Action: Move a card you control in reserve to an adjacent planet without an enemy warlord. (Limit once per phase.)"/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value=""/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="6"/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="41"/>
+            <property name="StartingHand"     value="7"/>
+            <property name="StartingResources" value="7"/>
+            <property name="Squad"          value="34"/>
+            <alternate name="Korporal Snagbrat" type="bloodied">
+                <property name="Faction"        value="Ork"/>
+                <property name="Type"           value="Warlord"/>
+                <property name="Loyalty"        value="Squad"/>
+                <property name="Traits"         value="Soldier. Blood Axe."/>
+                <property name="Text"           value=""/>
+                <property name="Keywords"       value="Bloodied."/>
+                <property name="Unique"         value="yes"/>
+                <property name="Cost"           value=""/>
+                <property name="Attack"         value="2"/>
+                <property name="Health"         value="6"/>
+                <property name="Command"        value=""/>
+                <property name="Shield"         value=""/>
+                <property name="ResourceBonus"  value=""/>
+                <property name="CardBonus"      value=""/>
+                <property name="ErrataText"     value=""/>
+                <property name="CardNumber"     value="41"/>
+            </alternate>
+        </card>
+        <card id="443ec8ab-fc8c-4211-860b-ededf0ba0f3b" name="Snagbrat's Scouts">
+            <property name="Faction"        value="Ork"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value="Squad (4)"/>
+            <property name="Traits"         value="Soldier. Blood Axe."/>
+            <property name="Text"           value="Reaction: When the command phase begins, Deep Strike this unit to have it gain 2 command icons until the end of the phase."/>
+            <property name="Keywords"       value="Deep Strike (1)"/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="3"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="42"/>
+            <property name="Copies"         value="4"/>
+            <property name="Squad"          value="34"/>
+        </card>
+        <card id="fd7d1632-078d-45b7-9101-6658398e098d" name="Kommando Kunning">
+            <property name="Faction"        value="Ork"/>
+            <property name="Type"           value="Event"/>
+            <property name="Loyalty"        value="Squad (2)"/>
+            <property name="Traits"         value="Tactic."/>
+            <property name="Text"           value="Action: Deep Strike a card you control without paying its Deep Strike cost."/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="1"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="43"/>
+            <property name="Copies"         value="2"/>
+            <property name="Squad"          value="34"/>
+        </card>
+        <card id="8b1c888a-b7a5-4299-b910-b9561cf9d0e2" name="Soot-Blackened Axe">
+            <property name="Faction"        value="Ork"/>
+            <property name="Type"           value="Attachment"/>
+            <property name="Loyalty"        value="Squad (1)"/>
+            <property name="Traits"         value="Wargear. Blood Axe."/>
+            <property name="Text"           value="Attach to an [Ork] unit.
+Attached unit gets +1 ATK and +1 HP.
+Action: Put this card in reserve at this planet to move up to 1 damage from attached unit to a target non-unique unit at the same planet."/>
+            <property name="Keywords"       value="Deep Strike (0)"/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="3"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="44"/>
+            <property name="Copies"         value="1"/>
+            <property name="Squad"          value="34"/>
+        </card>
+        <card id="9e1ddf09-0ee4-42d7-b59f-f96f5ac204fa" name="Fake Ooman Base">
+            <property name="Faction"        value="Ork"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Squad (1)"/>
+            <property name="Traits"         value="Location."/>
+            <property name="Text"           value="Reaction: After an [Ork] Soldier army unit you control is chosen as a defender, exhaust this support and move that unit to your HQ to cancel the attack."/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="45"/>
+            <property name="Copies"         value="1"/>
+            <property name="Squad"         value="34"/>
+        </card>
+        <card id="218f8763-71fe-47d4-96a0-3ffb8b07c55a" name="Deathwing Interceders">
+            <property name="Faction"        value="Space Marine"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Soldier. Dark Angels."/>
+            <property name="Text"           value="Interrupt: When an enemy unit would declare an attack against a unit you control at this planet, Deep Strike this unit to declare it as the defender instead. If this unit is still in play at the end of the phase, return it to your hand."/>
+            <property name="Keywords"       value="Deep Strike (2)."/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="4"/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="46"/>
+        </card>
+        <card id="056ee6a3-5c5e-4fec-a8a1-82280f9dc674" name="Celestian Amelia">
+            <property name="Faction"    	value="Astra Militarum"/>
+            <property name="Type"       	value="Army"/>
+            <property name="Loyalty"    	value="Loyal"/>
+            <property name="Traits"     	value="Soldier. Martyr. Ecclesiarchy."/>
+            <property name="Text"       	value="Reaction: After an enemy unit is declared as an attacker at this planet, while that unit is attacking, reduce all damage taken by other [AM] units you control to 1. (Limit once per phase.)"/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"     	value="yes"/>
+            <property name="Cost"       	value="3"/>
+            <property name="Attack"     	value="3"/>
+            <property name="Health"     	value="3"/>
+            <property name="Command"    	value="1"/>
+            <property name="Shield"     	value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"  	value=""/>
+            <property name="ErrataText" 	value=""/>
+            <property name="CardNumber"	value="47"/>
+        </card>
+        <card id="275c2531-03a4-4a28-8546-0e262e5c6eb5" name="Hydra Flak Tank">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Vehicle. Tank. Krieg."/>
+            <property name="Text"           value="This unit deals double damage to enemy Flying or Mobile units.
+Reaction: After a unit moves to or from this planet, deal it 1 damage. (Limit once per phase.)"/>
+            <property name="Keywords"       value="No Wargear attachments."/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="3"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="48"/>
+        </card>
+        <card id="3e332e62-1c8a-4dc9-a3bd-fda75acaeaad" name="Lost in the Webway">
+            <property name="Faction"        value="Eldar"/>
+            <property name="Type"           value="Event"/>
+            <property name="Loyalty"        value="Yes"/>
+            <property name="Traits"         value="Power. Harlequin."/>
+            <property name="Text"           value="Action: Either (choose one): Switch the location of two Harlequin units you control or your opponent must switch the location of two army units he controls."/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="2"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="49"/>
+        </card>
+        <card id="ba75533a-0777-4a72-b815-a0a1153edd2b" name="Sneaky Lootin'">
+            <property name="Faction"        value="Ork"/>
+            <property name="Type"           value="Event"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Tactic."/>
+            <property name="Text"           value="Reaction: After an [Ork] Soldier unit you control damages an enemy unit by an attack, move that unit to your HQ to gain 3 [C]."/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="1"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="50"/>
+        </card>
+        <card id="b5e7ff2f-3ab3-4375-9eb4-dfb1588be8f5" name="Patient Infiltrator">
+            <property name="Faction"        value="Ork"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Soldier."/>
+            <property name="Text"           value="You may Deep Strike this card as an Action during the combat phase.
+Reaction: When you Deep Strike this unit, ready it and move up to 1 damage from this unit to a target unit at the same planet."/>
+            <property name="Keywords"       value="Deep Strike (1)"/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value="3"/>
+            <property name="Health"         value="2"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="51"/>
+        </card>
+        <card id="9ffb7d20-0a9e-46ef-a6ca-ef9f24b85038" name="Improvised Minefield">
+            <property name="Faction"        value="Chaos"/>
+            <property name="Type"           value="Attachment"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Location."/>
+            <property name="Text"           value="Attach to a planet.
+Forced Reaction: After a non-warlord unit is declared as an attacker at this planet, deal 3 damage to it and discard this card."/>
+            <property name="Keywords"       value="Deep Strike (1)"/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="1"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="52"/>
+        </card>
+        <card id="80ca1a23-d1e6-4bdd-a00b-3beb5cc18e83" name="Smuggler's Den">
+            <property name="Faction"        value="Tau"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Location."/>
+            <property name="Text"           value="Action: Exhaust this support and pay 1 [C] to return a target attachment you control to your hand. Then gain [C] equal to the printed cost of the attachment."/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"    value="53"/>
+        </card>
+        <card id="12b745c9-682f-4e6e-b1cd-7c462e22ed09" name="Consumed by the Kindred">
+            <property name="Faction"        value="Tau"/>
+            <property name="Type"           value="Event"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Tactic. Kroot."/>
+            <property name="Text"           value="Action: Exhaust a Kroot unit and sacrifice another non-Vehicle unit to gain [C] equal to the sacrified unit printed cost."/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="1"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="54"/>
+        </card>
+        <card id="9138af1c-378d-4cd5-9476-622cd25fe3a5" name="Mindless Pain Addict">
+            <property name="Faction"        value="Dark Eldar"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Creature. Haemonculus."/>
+            <property name="Text"           value="Cannot retreat or be routed.
+Reaction: When an army unit you control at this planet is destroyed, take control of this unit. Any player may use this ability."/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="2"/>
+            <property name="Attack"         value="4"/>
+            <property name="Health"         value="4"/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="55"/>
+        </card>
+        <card id="8cadb2c8-37aa-4397-b357-e4b324a4e5c2" name="Supply Line Incursion">
+            <property name="Faction"        value="Dark Eldar"/>
+            <property name="Type"           value="Event"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Tactic."/>
+            <property name="Text"           value="Action: Exhaust target support. Then, if that support is a Limited card, draw one card and gain 1 [C]."/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="1"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="56"/>
+        </card>
+        <card id="4a828f68-fdee-457d-a8a4-55c0aca5b2aa" name="Contaminated Convoys">
+            <property name="Faction"        value="Tyranid"/>
+            <property name="Type"           value="Event"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Tactic."/>
+            <property name="Text"           value="Reaction: After a phase begins, until the end of this phase, when an enemy army unit enters play at a planet, put a Termagant token into play at the same planet and infest it."/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="1"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="57"/>
+        </card>
+        <card id="0a24294c-aeed-41a5-ad91-35040a3cb5c0" name="Hive Ship Tendrils">
+            <property name="Faction"        value="Tyranid"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Location."/>
+            <property name="Text"           value="Reaction: After a unit you control with the Hive Mind specialization leaves play, put an infestation token on this support. Then you may sacrifice this support to put a unit with the Hive Mind specialization and printed cost lower or equal to the number of tokens on this support into play from your discard pile at a planet."/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="58"/>
+        </card>
+        <card id="3ae585e3-21ae-4c92-927e-df3fea258746" name="Necrodermis">
+            <property name="Faction"        value="Necron"/>
+            <property name="Type"           value="Event"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Tactic."/>
+            <property name="Text"           value="Play only during a battle.
+Interrupt: When your warlord would be defeated by taking damage, remove all damage from it instead. At the end of the phase or when another event named 'Necrodermis' is played, you lose the game."/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value="2"/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="59"/>
+        </card>
+        <card id="9cbd4f74-ca90-4d7a-9a50-cb89637eebcc" name="Tomb Blade Diversionist">
+            <property name="Faction"        value="Necron"/>
+            <property name="Type"           value="Army"/>
+            <property name="Loyalty"        value=""/>
+            <property name="Traits"         value="Vehicle."/>
+            <property name="Text"           value="Reaction: After an enemy army unit resolves an attack at this planet, if this unit wasn't chosen as a defender, deal 1 damage to the attacker."/>
+            <property name="Keywords"       value=""/>
+            <property name="Unique"         value=""/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value="2"/>
+            <property name="Health"         value="3"/>
+            <property name="Command"        value="1"/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="60"/>
+        </card>
+    </cards>
 </set>
-
-
-
-
