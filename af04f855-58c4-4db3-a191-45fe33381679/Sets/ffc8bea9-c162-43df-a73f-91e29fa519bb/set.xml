@@ -931,24 +931,23 @@ Action: Put this card in reserve at this planet to move up to 1 damage from atta
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"    value="46"/>
         </card>
-        <card id="056ee6a3-5c5e-4fec-a8a1-82280f9dc674" name="Lofty Duties">
-            <property name="Faction"        value="Astra Militarum"/>
-            <property name="Type"           value="Event"/>
-            <property name="Loyalty"        value=""/>
-            <property name="Traits"         value="Prayer. Ecclesiarchy."/>
-            <property name="Text"           value="Play only if you control an army unit.
-Deploy Action: Each player returns to his hand an army unit he controls with the highest printed cost among units he controls, if able."/>
+        <card id="056ee6a3-5c5e-4fec-a8a1-82280f9dc674" name="Celestian Amelia">
+            <property name="Faction"    	value="Astra Militarum"/>
+            <property name="Type"       	value="Army"/>
+            <property name="Loyalty"    	value="Loyal"/>
+            <property name="Traits"     	value="Soldier. Martyr. Ecclesiarchy."/>
+            <property name="Text"       	value="Reaction: After an enemy unit is declared as an attacker at this planet, while that unit is attacking, reduce all damage taken by other [AM] units you control to 1. (Limit once per phase.)"/>
             <property name="Keywords"       value=""/>
-            <property name="Unique"         value=""/>
-            <property name="Cost"           value="2"/>
-            <property name="Attack"         value=""/>
-            <property name="Health"         value=""/>
-            <property name="Command"        value=""/>
-            <property name="Shield"         value="1"/>
+            <property name="Unique"     	value="yes"/>
+            <property name="Cost"       	value="3"/>
+            <property name="Attack"     	value="3"/>
+            <property name="Health"     	value="3"/>
+            <property name="Command"    	value="1"/>
+            <property name="Shield"     	value=""/>
             <property name="ResourceBonus"  value=""/>
-            <property name="CardBonus"      value=""/>
-            <property name="ErrataText"     value=""/>
-            <property name="CardNumber"    value="47"/>
+            <property name="CardBonus"  	value=""/>
+            <property name="ErrataText" 	value=""/>
+            <property name="CardNumber"	value="47"/>
         </card>
         <card id="275c2531-03a4-4a28-8546-0e262e5c6eb5" name="Hydra Flak Tank">
             <property name="Faction"        value="Astra Militarum"/>
