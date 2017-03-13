@@ -7,7 +7,7 @@ def wilkommen():
 	notify("Hi Boyz, if you get any error, bug, or want to suggest something, please contact me on my blog : http://octgngames.com/wh40kc/ or my github : https://github.com/Kertanos/W40kConquest-OCTGN/    Enjoy your game, good luck and have fun !")
 
 def deckHash(player, cards):
-	names = [c.name for c in cards]
+	names = [c.Name for c in cards]
 	names.sort
 	names.append(player.name) # Include the player's name to differentiate the mirror match
 	sha1 = SHA1Managed()
