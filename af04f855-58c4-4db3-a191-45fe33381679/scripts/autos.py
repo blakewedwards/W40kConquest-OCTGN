@@ -1,12 +1,24 @@
 import collections
-
+import itertools
+from System import Array, Byte, Convert
+from System.Security.Cryptography import SHA1Managed
 
 def wilkommen():
 	notify("Hi Boyz, if you get any error, bug, or want to suggest something, please contact me on my blog : http://octgngames.com/wh40kc/ or my github : https://github.com/Kertanos/W40kConquest-OCTGN/    Enjoy your game, good luck and have fun !")
 
+def deckHash(player, cards):
+	names = [c.name for c in cards]
+	names.sort
+	names.append(player.name) # Include the player's name to differentiate the mirror match
+	sha1 = SHA1Managed()
+	return Convert.ToBase64String(sha1.ComputeHash(Array[Byte]([ord(c) for c in '|'.join(names).encode('utf-8')])))
 
 def deckCheck(groups):
 	mute()
+
+	# Have both players compute the hash of a deck to prevent local tampering
+	notify("{} computes hash {}".format(me, deckHash(groups.player, itertools.chain(groups.player.hand[:], groups.player.deck[:]))))
+
 	if groups.player !=me:return
 	deckOk=True
 	group=me.deck
