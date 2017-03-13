@@ -17,7 +17,7 @@ def deckCheck(groups):
 	mute()
 
 	# Have both players compute the hash of a deck to prevent local tampering
-	notify("{} computes hash {}".format(me, deckHash(groups.player, itertools.chain(groups.player.hand[:], groups.player.deck[:]))))
+	notify("{} computes hash {}".format(me, deckHash(groups.player, itertools.chain(groups.player.hand, groups.player.deck))))
 
 	if groups.player !=me:return
 	deckOk=True
