@@ -1,9 +1,7 @@
 import collections
 
-
 def wilkommen():
-	notify("Hi Boyz, if you get any error, bug, or want to suggest something, please contact me on my blog : http://octgngames.com/wh40kc/ or my github : https://github.com/Kertanos/W40kConquest-OCTGN/    Enjoy your game, good luck and have fun !")
-
+	notify("Hi Boyz, if you encounter any errors, bugs, or want to suggest something, please contact us at http://octgngames.com/wh40kc/ or w40kc.lcg.octgn@gmail.com    Enjoy the game, good luck and have fun!")
 
 def deckCheck(groups):
 	mute()
