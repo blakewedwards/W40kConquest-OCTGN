@@ -592,7 +592,7 @@ Combat action: Exhaust this support to move 1 damage from an enemy unit at a pla
         <card id="97911a01-44c0-4e72-af7a-8456d606e431" name="Scheming Warlock">
             <property name="Faction"        value="Eldar"/>
             <property name="Type"           value="Army"/>
-            <property name="Loyalty"        value=""/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Psyker."/>
             <property name="Text"           value="Reaction: After you deploy this unit, look at the top 3 cards of your deck for a card with the Deep Strike keyword. Reveal it, and add it to your hand. Then, put each remaining card on the bottom or top of your deck in any order."/>
             <property name="Keywords" value=""/>
