@@ -971,7 +971,7 @@ Reaction: After a unit moves to or from this planet, deal it 1 damage. (Limit on
         <card id="3e332e62-1c8a-4dc9-a3bd-fda75acaeaad" name="Lost in the Webway">
             <property name="Faction"        value="Eldar"/>
             <property name="Type"           value="Event"/>
-            <property name="Loyalty"        value="Yes"/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Power. Harlequin."/>
             <property name="Text"           value="Action: Either (choose one): Switch the location of two Harlequin units you control or your opponent must switch the location of two army units he controls."/>
             <property name="Keywords"       value=""/>
@@ -1345,7 +1345,7 @@ Interrupt: When your warlord would be defeated by taking damage, remove all dama
         <card id="b8187e0e-531a-43aa-9e69-c31ad34a5fdc" name="Seal of the Ebon Chalice">
             <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Attachment"/>
-            <property name="Loyalty"        value="Yes"/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Award. Ecclesiarchy."/>
             <property name="Text"           value="Attach to an army unit. Attached unit gets +1 HP. Interrupt: When attached unit takes damage from a unit with a higher printed cost, deal to that unit damage equal to the difference between the units' printed costs."/>
             <property name="Keywords"       value=""/>
@@ -1363,7 +1363,7 @@ Interrupt: When your warlord would be defeated by taking damage, remove all dama
         <card id="942f4a0e-b3cf-4703-8031-f0fe383ff62a" name="Embarked Squads">
             <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Support"/>
-            <property name="Loyalty"        value="Yes"/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Location."/>
             <property name="Text"           value="Command Action: Exhaust this support to have a target, non-Upgrade, Vehicle unit you control gain the Upgrade and Transport traits and 'Interrupt: When this unit retreats, put 2 Guardsman tokens into play at the same planet. (Limit once per phase.)' until the end of the round."/>
             <property name="Keywords"       value=""/>
@@ -1381,7 +1381,7 @@ Interrupt: When your warlord would be defeated by taking damage, remove all dama
         <card id="3313a8ca-85d7-41c7-94f4-f78980525c50" name="Cegorach's Jesters">
             <property name="Faction"        value="Eldar"/>
             <property name="Type"           value="Army"/>
-            <property name="Loyalty"        value="Yes"/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Psyker. Harlequin."/>
             <property name="Text"           value="Reaction: After a battle at this planet begins, your opponent may reveal any number of cards from his hand. He cannot use unrevealed event or attachment cards as shield cards during this battle."/>
             <property name="Keywords"       value=""/>
@@ -1399,7 +1399,7 @@ Interrupt: When your warlord would be defeated by taking damage, remove all dama
         <card id="d6611db3-cc1f-4ba5-94bd-04a6f1d8211b" name="Theater of War">
             <property name="Faction"        value="Eldar"/>
             <property name="Type"           value="Event"/>
-            <property name="Loyalty"        value="Yes"/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Power. Harlequin."/>
             <property name="Text"           value="Play only if an enemy warlord is ready. Command Action: Exhaust your warlord to trigger the Battle ability of a target planet. Then your opponent may exhaust his warlord to trigger the Battle ability of another planet."/>
             <property name="Keywords"       value=""/>
@@ -1435,7 +1435,7 @@ Interrupt: When your warlord would be defeated by taking damage, remove all dama
         <card id="390a7816-8efb-4a44-bda6-ef6c2489ee0f" name="Cajivak the Hateful">
             <property name="Faction"        value="Chaos"/>
             <property name="Type"           value="Army"/>
-            <property name="Loyalty"        value="Yes"/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Warrior. Khorne."/>
             <property name="Text"           value="Interrupt: When damage equal to or greater than your warlord remaining HP are assigned or moved to your warlord, either (choose one): Put this unit into play from your hand at a planet, or discard this card from your hand to draw 2 cards."/>
             <property name="Keywords"       value=""/>
@@ -1490,7 +1490,7 @@ Reaction: After this unit enters play, a non-[Tau] army unit at an adjacent plan
         <card id="4fac8aef-7eb6-481c-85b2-0dec5e04e58f" name="Rampaging Knarloc">
             <property name="Faction"        value="Tau"/>
             <property name="Type"           value="Army"/>
-            <property name="Loyalty"        value="Yes"/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Creature. Kroot. Elite."/>
             <property name="Text"           value="While you have 4[Resource] or more, reduce all damage taken by this unit to 3. Reaction: After this unit is declared as a defender, exhaust it to deal 4 damage to the attacker."/>
             <property name="Keywords"       value="No attachments"/>
