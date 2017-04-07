@@ -1439,7 +1439,7 @@ Interrupt: When your warlord would be defeated by taking damage, remove all dama
             <property name="Traits"         value="Warrior. Khorne."/>
             <property name="Text"           value="Interrupt: When damage equal to or greater than your warlord remaining HP are assigned or moved to your warlord, either (choose one): Put this unit into play from your hand at a planet, or discard this card from your hand to draw 2 cards."/>
             <property name="Keywords"       value=""/>
-            <property name="Unique"         value="Yes"/>
+            <property name="Unique"         value="yes"/>
             <property name="Cost"           value="2"/>
             <property name="Attack"         value="2"/>
             <property name="Health"         value="2"/>
@@ -1566,7 +1566,7 @@ Reaction: After this unit enters play, a non-[Tau] army unit at an adjacent plan
             <property name="Traits"         value="Scavenger. Ally."/>
             <property name="Text"           value="Interrupt: When you win a command struggle, instead of taking the card bonus search the top 2 cards of your deck for a card. Add it to your hand, and place the remaining cards on the bottom of your deck in any order. (Limit once per phase.)"/>
             <property name="Keywords"       value=""/>
-            <property name="Unique"         value="Yes"/>
+            <property name="Unique"         value="yes"/>
             <property name="Cost"           value="1"/>
             <property name="Attack"         value="0"/>
             <property name="Health"         value="2"/>
