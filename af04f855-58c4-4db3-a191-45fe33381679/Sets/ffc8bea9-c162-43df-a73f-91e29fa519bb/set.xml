@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="07-NavidaPrime Cycle" id="ffc8bea9-c162-43df-a73f-91e29fa519bb" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.7">
+<set name="07-NavidaPrime Cycle" id="ffc8bea9-c162-43df-a73f-91e29fa519bb" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.8">
     <cards>
         <card id="ec83795b-7251-4277-a4e4-1e017f89c3c7" name="Shaper Agnok">
             <property name="Faction"        value="Tau"/>
@@ -1636,7 +1636,7 @@ Reaction: After this unit enters play, a non-[Tau] army unit at an adjacent plan
             <property name="Copies"         value="4"/>
             <property name="Squad"          value="36"/>
         </card>
-        <card id="da6ec481-4492-48bb-8d34-9ec0ccf67afa" name="The Strength of the Enemy">
+        <card id="f164262b-55f2-4d1d-b940-2778559478a7" name="The Strength of the Enemy">
             <property name="Faction"        value="Necron"/>
             <property name="Type"           value="Event"/>
             <property name="Loyalty"        value="Squad (2)"/>
@@ -1702,7 +1702,7 @@ Reaction: After this unit enters play, a non-[Tau] army unit at an adjacent plan
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Power. Space Wolves."/>
             <property name="Text"           value="Attach to a planet. Combat Action: If there is no enemy warlord at this planet, exhaust this attachment to move a target enemy army unit at this planet to a planet with a Space Wolves unit you control."/>
-            <property name="Unique"         value="Yes"/>
+            <property name="Unique"         value="yes"/>
             <property name="Cost"           value="2"/>
             <property name="Attack"         value=""/>
             <property name="Health"         value=""/>
@@ -1720,7 +1720,7 @@ Reaction: After this unit enters play, a non-[Tau] army unit at an adjacent plan
             <property name="Traits"         value="Soldier. Space Wolves."/>
             <property name="Text"           value="While this unit is at a planet with an enemy warlord it gets -2 ATK, -2 HP. Interrupt: When your opponent triggers an ability that discards a card from your hand, put this unit from your hand into play at a planet. Then deal 1 damage to an enemy unit at that planet and draw a card."/>
             <property name="Keywords"       value=""/>
-            <property name="Unique"         value="Yes"/>
+            <property name="Unique"         value="yes"/>
             <property name="Cost"           value="1"/>
             <property name="Attack"         value="3"/>
             <property name="Health"         value="3"/>
@@ -1751,7 +1751,7 @@ Reaction: After this unit enters play, a non-[Tau] army unit at an adjacent plan
         </card>
         <card id="9a8c32f0-0095-47a1-a641-c8a767bbe8fe" name="23rd Mechanised Battalion">
             <property name="Faction"        value="Astra Militarum"/>
-            <property name="Type"           value="Support"/>
+            <property name="Type"           value="Army"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Corps. Transport."/>
             <property name="Text"           value="Cannot be targeted. Reaction: After the second combat round ends at this planet, if there is at least one enemy unit, retreat this unit to put 4 Guardsman tokens into play at this planet. Then deal 5 damage to this unit."/>
@@ -1767,7 +1767,7 @@ Reaction: After this unit enters play, a non-[Tau] army unit at an adjacent plan
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="89"/>
         </card>
-        <card id="78f89b9b-ff59-416f-af1d-a0e4ac1433e3" name="Armored Fist Squad'">
+        <card id="78f89b9b-ff59-416f-af1d-a0e4ac1433e3" name="Armored Fist Squad">
             <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value=""/>
@@ -1918,7 +1918,7 @@ Reaction: After this unit enters play, a non-[Tau] army unit at an adjacent plan
             <property name="Traits"         value="Daemon. Slaneesh."/>
             <property name="Text"           value="Each cultist token you control gets +2 ATK and +1 HP. Your cultist token limit is set to 2. Combat Action: Move a Cultist unit you control to a target planet. (Limit once per phase.)"/>
             <property name="Keywords"       value=""/>
-            <property name="Unique"         value="Yes"/>
+            <property name="Unique"         value="yes"/>
             <property name="Cost"           value="2"/>
             <property name="Attack"         value="1"/>
             <property name="Health"         value="4"/>
