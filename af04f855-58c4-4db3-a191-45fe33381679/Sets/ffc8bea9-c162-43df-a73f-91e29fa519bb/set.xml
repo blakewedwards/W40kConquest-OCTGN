@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="07-NavidaPrime Cycle" id="ffc8bea9-c162-43df-a73f-91e29fa519bb" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.8">
+<set name="07-NavidaPrime Cycle" id="ffc8bea9-c162-43df-a73f-91e29fa519bb" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.9">
     <cards>
         <card id="ec83795b-7251-4277-a4e4-1e017f89c3c7" name="Shaper Agnok">
             <property name="Faction"        value="Tau"/>
@@ -1987,7 +1987,7 @@ Reaction: After this unit enters play, a non-[Tau] army unit at an adjacent plan
             <property name="Faction"        value="Dark Eldar"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value="Loyal"/>
-            <property name="Traits"         value="Kroot."/>
+            <property name="Traits"         value="Scholar. Haemonculus"/>
             <property name="Text"           value="Reaction: After you play a [DE] event card, exhaust this unit to attach that event card to a [DE] unit as a Wargear attachment with the text ‘Attach to an army unit. Attached unit gets +1 ATK and +1 HP.’. (Limit once per phase.)"/>
             <property name="Keywords"       value=""/>
             <property name="Unique"         value=""/>
