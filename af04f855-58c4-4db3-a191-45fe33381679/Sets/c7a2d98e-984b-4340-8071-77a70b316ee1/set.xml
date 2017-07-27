@@ -2,7 +2,7 @@
 <set name="08-Defenders of the Faith" id="c7a2d98e-984b-4340-8071-77a70b316ee1" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.0">
     <cards>
         <card id="3bde0e84-719e-11e7-8cf7-a6006ad3dba0" name="Saint Celestine">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Warlord"/>
             <property name="Loyalty"        value="Squad"/>
             <property name="Traits"         value="Saint. Ecclesiarchy."/>
@@ -22,7 +22,7 @@
             <property name="StartingResources" value="7"/>
             <property name="Squad"         value="37"/>
             <alternate name="Saint Celestine" type="bloodied">
-                <property name="Faction"        value="Astra"/>
+                <property name="Faction"        value="Astra Militarum"/>
                 <property name="Type"           value="Warlord"/>
                 <property name="Loyalty"        value="Squad"/>
                 <property name="Traits"         value="Saint. Ecclesiarchy."/>
@@ -41,7 +41,7 @@
             </alternate>
         </card>
         <card id="3bde11b8-719e-11e7-8cf7-a6006ad3dba0" name="Heralding Cherubim">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value="Squad (4)"/>
             <property name="Traits"         value="Herald. Ecclesiarchy."/>
@@ -61,7 +61,7 @@
             <property name="Squad"          value="37"/>
         </card>
         <card id="3bde12ee-719e-11e7-8cf7-a6006ad3dba0" name="Miraculous Intervention">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Event"/>
             <property name="Loyalty"        value="Squad (2)"/>
             <property name="Traits"         value="Prayer. Ecclesiarchy."/>
@@ -81,7 +81,7 @@
             <property name="Squad"          value="37"/>
         </card>
         <card id="3bde13e8-719e-11e7-8cf7-a6006ad3dba0" name="Armour of Saint Katherine">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Attachment"/>
             <property name="Loyalty"        value="Squad (1)"/>
             <property name="Traits"         value="Wargear. Armor."/>
@@ -103,7 +103,7 @@ Reaction: After attached unit is dealt damage, place 1 F on it."/>
             <property name="Squad"          value="37"/>
         </card>
         <card id="3bde151e-719e-11e7-8cf7-a6006ad3dba0" name="Order of Our Martyred Lady">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Support"/>
             <property name="Loyalty"        value="Squad (1)"/>
             <property name="Traits"         value="Location. Ecclesiarchy."/>
@@ -123,7 +123,7 @@ Reaction: After attached unit is dealt damage, place 1 F on it."/>
             <property name="Squad"          value="37"/>
         </card>
         <card id="3bde162c-719e-11e7-8cf7-a6006ad3dba0" name="Canoness Vardina">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Warlord"/>
             <property name="Loyalty"        value="Squad"/>
             <property name="Traits"         value="Officer. Ecclesiarchy."/>
@@ -143,7 +143,7 @@ Reaction: After attached unit is dealt damage, place 1 F on it."/>
             <property name="StartingResources" value="7"/>
             <property name="Squad"         value="37"/>
             <alternate name="Canoness Vardina" type="bloodied">
-                <property name="Faction"        value="Astra"/>
+                <property name="Faction"        value="Astra Militarum"/>
                 <property name="Type"           value="Warlord"/>
                 <property name="Loyalty"        value="Squad"/>
                 <property name="Traits"         value="Officer. Ecclesiarchy."/>
@@ -162,7 +162,7 @@ Reaction: After attached unit is dealt damage, place 1 F on it."/>
             </alternate>
         </card>
         <card id="3bde171c-719e-11e7-8cf7-a6006ad3dba0" name="Sororitas Command Squad">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value="Squad (4)"/>
             <property name="Traits"         value="Soldier. Ecclesiarchy."/>
@@ -182,7 +182,7 @@ Reaction: After attached unit is dealt damage, place 1 F on it."/>
             <property name="Squad"          value="37"/>
         </card>
         <card id="3bde180c-719e-11e7-8cf7-a6006ad3dba0" name="Faith Denies Death">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Event"/>
             <property name="Loyalty"        value="Squad (2)"/>
             <property name="Traits"         value="Prayer. Ecclesiarchy."/>
@@ -202,7 +202,7 @@ Reaction: After attached unit is dealt damage, place 1 F on it."/>
             <property name="Squad"          value="37"/>
         </card>
         <card id="3bde1910-719e-11e7-8cf7-a6006ad3dba0" name="Transcendent Blessing">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Attachment"/>
             <property name="Loyalty"        value="Squad (1)"/>
             <property name="Traits"         value="Blessing."/>
@@ -224,7 +224,7 @@ Interrupt: When attached unit leaves play, pay 1 F to attach this card to an eli
             <property name="Squad"          value="37"/>
         </card>
         <card id="3bde19ec-719e-11e7-8cf7-a6006ad3dba0" name="Supreme Appearance">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Support"/>
             <property name="Loyalty"        value="Squad (1)"/>
             <property name="Traits"         value="Miracle."/>
@@ -244,7 +244,7 @@ Interrupt: When attached unit leaves play, pay 1 F to attach this card to an eli
             <property name="Squad"          value="37"/>
         </card>
         <card id="3bde1ad2-719e-11e7-8cf7-a6006ad3dba0" name="Tenacious Novice Squad">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Soldier. Ecclesiarchy."/>
@@ -263,7 +263,7 @@ Reaction: After a warlord commits to this planet, place 1 F on an army unit at t
             <property name="CardNumber"    value="11"/>
         </card>
         <card id="3bde1be0-719e-11e7-8cf7-a6006ad3dba0" name="Penitent Engines">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Vehicle. Martyr. Ecclesiarchy."/>
@@ -281,7 +281,7 @@ Reaction: After a warlord commits to this planet, place 1 F on an army unit at t
             <property name="CardNumber"    value="12"/>
         </card>
         <card id="3bde1cda-719e-11e7-8cf7-a6006ad3dba0" name="Dominion Eugenia">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Soldier. Officer. Ecclesiarchy."/>
@@ -300,7 +300,7 @@ Reaction: After another AM Ecclesiarchy unit you control at this planet is decla
             <property name="CardNumber"    value="13"/>
         </card>
         <card id="3bde1dc0-719e-11e7-8cf7-a6006ad3dba0" name="Sacred Rose Immolator">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Vehicle. Transport. Ecclesiarchy."/>
@@ -318,7 +318,7 @@ Reaction: After another AM Ecclesiarchy unit you control at this planet is decla
             <property name="CardNumber"    value="14"/>
         </card>
         <card id="3bde1ea6-719e-11e7-8cf7-a6006ad3dba0" name="Fanatical Sister Repentia">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Soldier. Martyr. Ecclesiarchy."/>
@@ -336,7 +336,7 @@ Reaction: After another AM Ecclesiarchy unit you control at this planet is decla
             <property name="CardNumber"    value="15"/>
         </card>
         <card id="3bde1fb4-719e-11e7-8cf7-a6006ad3dba0" name="Heavy Flamer Retributor">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Soldier. Ecclesiarchy."/>
@@ -355,7 +355,7 @@ Reaction: After this unit resolves its attack, deal 1 damage to a number of diff
             <property name="CardNumber"    value="16"/>
         </card>
         <card id="3bde209a-719e-11e7-8cf7-a6006ad3dba0" name="Exalting Celestians">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Soldier. Ecclesiarchy."/>
@@ -373,7 +373,7 @@ Reaction: After this unit resolves its attack, deal 1 damage to a number of diff
             <property name="CardNumber"    value="17"/>
         </card>
         <card id="3bde2176-719e-11e7-8cf7-a6006ad3dba0" name="Devoted Hospitaller">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Novice. Ecclesiarchy."/>
@@ -391,7 +391,7 @@ Reaction: After this unit resolves its attack, deal 1 damage to a number of diff
             <property name="CardNumber"    value="18"/>
         </card>
         <card id="3bde228e-719e-11e7-8cf7-a6006ad3dba0" name="Eloquent Confessor">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Priest. Ecclesiarchy."/>
@@ -409,7 +409,7 @@ Reaction: After this unit resolves its attack, deal 1 damage to a number of diff
             <property name="CardNumber"    value="19"/>
         </card>
         <card id="3bde2374-719e-11e7-8cf7-a6006ad3dba0" name="Zealous Cantus">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Soldier. Ecclesiarchy."/>
@@ -427,7 +427,7 @@ Reaction: After this unit resolves its attack, deal 1 damage to a number of diff
             <property name="CardNumber"    value="20"/>
         </card>
         <card id="3bde24a0-719e-11e7-8cf7-a6006ad3dba0" name="Vengeful Seraphim">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Soldier. Ecclesiarchy."/>
@@ -445,7 +445,7 @@ Reaction: After this unit resolves its attack, deal 1 damage to a number of diff
             <property name="CardNumber"    value="21"/>
         </card>
         <card id="3bde266c-719e-11e7-8cf7-a6006ad3dba0" name="Patron Saint">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Saint. Elite. Ecclesiarchy."/>
@@ -463,7 +463,7 @@ Reaction: After this unit resolves its attack, deal 1 damage to a number of diff
             <property name="CardNumber"    value="22"/>
         </card>
         <card id="3bde2824-719e-11e7-8cf7-a6006ad3dba0" name="Saint Erika">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Saint. Martyr. Ecclesiarchy."/>
@@ -482,7 +482,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="CardNumber"    value="23"/>
         </card>
         <card id="3bde29f0-719e-11e7-8cf7-a6006ad3dba0" name="Evangelizing Ship">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Transport. Ecclesiarchy."/>
@@ -500,7 +500,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="CardNumber"    value="24"/>
         </card>
         <card id="3bde2bb2-719e-11e7-8cf7-a6006ad3dba0" name="Pattern IX Immolator">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Vehicle. Tank. Ecclesiarchy."/>
@@ -518,7 +518,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="CardNumber"    value="25"/>
         </card>
         <card id="3bde2dc4-719e-11e7-8cf7-a6006ad3dba0" name="Agra's Preachings">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Support"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Decree. Ecclesiarchy."/>
@@ -536,7 +536,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="CardNumber"    value="26"/>
         </card>
         <card id="3bde2fd6-719e-11e7-8cf7-a6006ad3dba0" name="Cardinal Agra Decree">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Support"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Decree. Ecclesiarchy."/>
@@ -554,7 +554,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="CardNumber"    value="27"/>
         </card>
         <card id="3bde313e-719e-11e7-8cf7-a6006ad3dba0" name="Holy Chapel">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Support"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Location. Ecclesiarchy."/>
@@ -572,7 +572,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="CardNumber"    value="28"/>
         </card>
         <card id="3bde3256-719e-11e7-8cf7-a6006ad3dba0" name="Blood of Martyrs">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Support"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Decree. Ecclesiarchy."/>
@@ -590,7 +590,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="CardNumber"    value="29"/>
         </card>
         <card id="3bde3346-719e-11e7-8cf7-a6006ad3dba0" name="Our Last Stand">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Event"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Prayer. Ecclesiarchy."/>
@@ -608,7 +608,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="CardNumber"    value="30"/>
         </card>
         <card id="3bde3422-719e-11e7-8cf7-a6006ad3dba0" name="Wrathful Retribution">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Event"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Prayer. Ecclesiarchy."/>
@@ -626,7 +626,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="CardNumber"    value="31"/>
         </card>
         <card id="3bde34fe-719e-11e7-8cf7-a6006ad3dba0" name="Banner of the Sacred Rose">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Attachment"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Standard. Ecclesiarchy."/>
@@ -644,7 +644,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="CardNumber"    value="32"/>
         </card>
         <card id="3bde35ee-719e-11e7-8cf7-a6006ad3dba0" name="Until Justice is Done">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Attachment"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Vow. Ecclesiarchy."/>
@@ -662,7 +662,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="CardNumber"    value="33"/>
         </card>
         <card id="3bde36ca-719e-11e7-8cf7-a6006ad3dba0" name="Sanctified Bolter">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Attachment"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Wargear. Weapon."/>
@@ -680,7 +680,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="CardNumber"    value="34"/>
         </card>
         <card id="3bde3896-719e-11e7-8cf7-a6006ad3dba0" name="Blade of the Crimson Oath">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Attachment"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Relic. Wargear. Weapon."/>
@@ -698,7 +698,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="CardNumber"    value="35"/>
         </card>
         <card id="3bde3a1c-719e-11e7-8cf7-a6006ad3dba0" name="Revered Heavy Flamer">
-            <property name="Faction"        value="Astra"/>
+            <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Attachment"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Wargear. Weapon. Ecclesiarchy."/>
