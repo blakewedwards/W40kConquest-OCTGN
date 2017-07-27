@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="08-Defenders of the Faith" id="c7a2d98e-984b-4340-8071-77a70b316ee1" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.0">
+<set name="APK-02-Defenders of the Faith" id="c7a2d98e-984b-4340-8071-77a70b316ee1" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.0">
     <cards>
         <card id="710816ab-91dd-4ccf-a656-930ded56c5af" name="Saint Celestine">
             <property name="Faction"        value="Astra Militarum"/>
