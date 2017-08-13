@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="APK-02-Defenders of the Faith" id="c7a2d98e-984b-4340-8071-77a70b316ee1" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.0">
+<set name="APK-02-Defenders of the Faith" id="c7a2d98e-984b-4340-8071-77a70b316ee1" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.1">
     <cards>
         <card id="710816ab-91dd-4ccf-a656-930ded56c5af" name="Saint Celestine">
             <property name="Faction"        value="Astra Militarum"/>
@@ -26,7 +26,7 @@
                 <property name="Type"           value="Warlord"/>
                 <property name="Loyalty"        value="Squad"/>
                 <property name="Traits"         value="Saint. Ecclesiarchy."/>
-                <property name="Text"           value="Interrupt: When your warlord would be defeated by taking damage, remove all damage from it instead. Then deal it 5 damage. (Limite once per game.)"/>
+                <property name="Text"           value="Interrupt: When your warlord would be defeated by taking damage, remove all damage from it instead. Then deal it 5 damage. (Limit once per game.)"/>
                 <property name="Keywords"       value="Bloodied."/>
                 <property name="Unique"         value="yes"/>
                 <property name="Cost"           value=""/>
@@ -127,7 +127,7 @@ Reaction: After attached unit is dealt damage, place 1 F on it."/>
             <property name="Type"           value="Warlord"/>
             <property name="Loyalty"        value="Squad"/>
             <property name="Traits"         value="Officer. Ecclesiarchy."/>
-            <property name="Text"           value="Action: Place 2 F among army units you control. If your warlord is at a planet with an enemy warlord, place 3 instead. (Limite once per round)"/>
+            <property name="Text"           value="Action: Place 2 F among army units you control. If your warlord is at a planet with an enemy warlord, place 3 instead. (Limit once per round)"/>
             <property name="Keywords"       value=""/>
             <property name="Unique"         value="yes"/>
             <property name="Cost"           value=""/>
@@ -262,10 +262,10 @@ Reaction: After a warlord commits to this planet, place 1 F on an army unit at t
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"    value="11"/>
         </card>
-        <card id="5104d3b5-b66b-4789-837b-930337ea445f" name="Penitent Engines">
+        <card id="5104d3b5-b66b-4789-837b-930337ea445f" name="Penitent Engine">
             <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
-            <property name="Loyalty"        value=""/>
+            <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Vehicle. Martyr. Ecclesiarchy."/>
             <property name="Text"           value="Reaction: After an attack resolved by a unit you control at this planet does not destroy the defender, place 1 F on this unit and it gets +1 ATK for its next attack this phase."/>
             <property name="Keywords" value="No Wargear attachments."/>
@@ -543,7 +543,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="Text"           value="While you control F, each Vostroya unit you control gets +1 ATK. Interrupt: When this card enters your discard pile, draw a card and place 1 F on an army unit."/>
             <property name="Keywords" value=""/>
             <property name="Unique"         value="yes"/>
-            <property name="Cost"           value="1"/>
+            <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
             <property name="Health"         value=""/>
             <property name="Command"        value=""/>
@@ -704,7 +704,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="Traits"         value="Wargear. Weapon. Ecclesiarchy."/>
             <property name="Text"           value="Attach to an army unit. Attached unit gets +2 ATK. Reaction: After your opponent uses a shield card on a unit at this planet, place 1 F on an army unit at this planet."/>
             <property name="Keywords" value="Deep Strike (0)"/>
-            <property name="Unique"         value="yes"/>
+            <property name="Unique"         value=""/>
             <property name="Cost"           value="1"/>
             <property name="Attack"         value=""/>
             <property name="Health"         value=""/>
@@ -738,7 +738,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Psyker. Harlequin."/>
-            <property name="Text"           value="Interrupt: When this unit is assigned damage by an enemy army unit, reduce the damage to an amount equal to its remaining HP. Then deal to that unit damage equal to the reduction. (Limit twice per phase.)"/>
+            <property name="Text"           value="Interrupt: When this unit is assigned damage by an enemy army unit, prevent all but 2 of that damage. Then deal to that unit damage equal to the damage prevented. (Limit once per phase.)"/>
             <property name="Keywords" value="Deep Strike (1)"/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="2"/>
@@ -882,7 +882,7 @@ Forced Reaction: After a non-Elysia, non-Saint [AM] army unit enters your discar
             <property name="Type"           value="Event"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Tactic."/>
-            <property name="Text"           value="As an additional cost, pay 1 R per copy of this card in your discard pile. Deploy Action: At a target planet, until the end of the round, as an additional cost when a non-warlord card effect moves a unit to that planet, routs a unit or makes a non-Runt unit enter play, pay 1 R. Then draw a card."/>
+            <property name="Text"           value="Deploy Action: Pay 1 R per copy of this card in your discard pile and draw a card to target planet. Until the end of the round, at that planet, players must pay 1 R to trigger a non-warlord card effect that moves a unit to that planet, rout a unit or makes a non-Runt unit enter play."/>
             <property name="Keywords" value=""/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="0"/>
