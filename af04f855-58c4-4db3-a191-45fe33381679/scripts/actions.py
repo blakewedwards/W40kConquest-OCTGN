@@ -192,9 +192,35 @@ def createSynapse(group, x = 0, y = 0):
 		for i in range(quantity):
 			cards=table.create(guid, X1, 200)
 			X1-=50
-	notify("{} creates {} Token(s)".format(me,cards))
+	notify("{} creates {} Synapse(s)".format(me,cards))
 
-
+def createUnit(group, x = 0, y = 0):
+	mute()
+	choiceList = ['Tyranid', 'Astra Militarum', 'Chaos', 'Dark Eldar', 'Eldar', 'Space Marine', 'Ork', 'Tau', 'Necron']
+	choice = askChoice("For which Faction do you want to create a Unit ?", choiceList)
+	if choice == 0 : return
+	elif choice == 1 : choiceArmy = 'Tyranid'
+	elif choice == 2 : choiceArmy = 'Astra Militarum'
+	elif choice == 3 : choiceArmy = 'Chaos'
+	elif choice == 4 : choiceArmy = 'Dark Eldar'
+	elif choice == 5 : choiceArmy = 'Eldar'
+	elif choice == 6 : choiceArmy = 'Space Marine'
+	elif choice == 7 : choiceArmy = 'Ork'
+	elif choice == 8 : choiceArmy = 'Tau'
+	else : choiceArmy = 'Necron'
+	guid,quantity=askCard({'Type':'Army', 'Faction':choiceArmy })
+	if guid == None: return
+	if me.isInverted: 
+		X1=-150
+		for i in range(quantity):
+			cards=table.create(guid, X1, -288)
+			X1+=50	
+	else:
+		X1=150
+		for i in range(quantity):
+			cards=table.create(guid, X1, 200)
+			X1-=50
+	notify("{} creates {} Unit(s)".format(me,cards))
 
 def ServoSkull(group, x=0,y=0):
 	mute()
@@ -732,3 +758,35 @@ def moveOneRandom(group):
 	card.moveTo(me.hand)
 	notify("{} randomly moves {} from their discard to their hand.".format(me, card.name))
 	
+#------------------------------------------------------------------------------
+# Check Deck Tournament Validity
+#------------------------------------------------------------------------------
+
+def CheckTournamentValid(group, x=0, y=0):
+	LegacyLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle" "05-Legions of Death", "06-Deathworld Cycle"]
+	ApokaLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle" "05-Legions of Death", "06-Deathworld Cycle", "APK-01-Navida Prime Cycle","APK-02-Defenders of the Faith","APK-03-Confrontation Cycle"]
+	choiceList = ['Legacy (FFG)', 'Extended (FFG + Apoka)']
+	choice = askChoice("Which Format do you want to check ?", choiceList)
+	valid = True
+	for card in me.deck:
+		if (choice == 1):
+			if (card.set not in LegacyLegal):
+				whisper("This card {} is not tournament legal : Set= {}".format(card.Name, card.set))
+				valid = False
+				break
+		elif (choice == 2):
+			if (card.set not in ApokaLegal):
+				whisper("This card {} is not tournament legal : Set= {}".format(card.Name, card.set))
+				valid = False
+				break
+		else:
+			whisper("This card {} is not tournament legal : Set= {}".format(card.Name, card.set))
+			valid = False
+			break
+	if valid == True:
+		if choice == 1:
+			notify("{}'s deck contains only Legacy legal cards".format(me))
+		elif choice == 2:
+			notify("{}'s deck contains only Extended legal cards".format(me))
+	else:
+		notify("{}'s deck does contain some invalid cards for the selected format".format(me))

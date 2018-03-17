@@ -2927,7 +2927,7 @@ Combat Action: Sacrifice this attachment to exhaust a target enemy non-Elite arm
 			<property name="Faction"        value="Tau"/>
 			<property name="Type"           value="Army"/>
 			<property name="Loyalty"        value=""/>
-			<property name="Traits"         value="Scout. Ally."/>
+			<property name="Traits"         value="Scout. Ally. Kroot."/>
 			<property name="Text"           value="Reaction: After you deploy this unit at a [Material] planet (red), gain 1[Resource]."/>
 			<property name="Keywords"       value=""/>
 			<property name="Unique"         value=""/>

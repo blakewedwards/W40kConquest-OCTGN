@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<game name="Warhammer 40K Conquest LCG" id="af04f855-58c4-4db3-a191-45fe33381679" octgnVersion="3.1.0.0" version="2.0.3.2" markersize="16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" authors="Kertanos" description="In the grim darkness of the far future there is only War...&#xA;&#xA; Warhammer 40k Conquest is a 2 players Living Card Game based on the Warhammer40000 Game Workshop universe and edited by Fantasy Flight Games.&#xA; &#xA;Automation rank: C&#xA;(This game definition contains automation of common actions to reduce tediousness amd speed up play.)" setsurl="http://tinyurl.com/kt7b6o9" gameurl="http://octgngames.com/wh40kc/" tags="OCTGN Warhammer w40k 40k LCG Conquest" iconurl="http://i39.servimg.com/u/f39/18/93/93/88/whk01_10.jpg" scriptVersion="3.1.0.2" usetwosidedtable="True">
+<game name="Warhammer 40K Conquest LCG" id="af04f855-58c4-4db3-a191-45fe33381679" octgnVersion="3.1.0.0" version="2.0.4.0" markersize="16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" authors="Kertanos" description="In the grim darkness of the far future there is only War...&#xA;&#xA; Warhammer 40k Conquest is a 2 players Living Card Game based on the Warhammer40000 Game Workshop universe and edited by Fantasy Flight Games.&#xA; &#xA;Automation rank: C&#xA;(This game definition contains automation of common actions to reduce tediousness amd speed up play.)" setsurl="http://tinyurl.com/kt7b6o9" gameurl="http://octgngames.com/wh40kc/" tags="OCTGN Warhammer w40k 40k LCG Conquest" iconurl="http://i39.servimg.com/u/f39/18/93/93/88/whk01_10.jpg" scriptVersion="3.1.0.2" usetwosidedtable="True">
   <scripts>
     <script src="scripts/actions.py" />
     <script src="scripts/autos.py" />
@@ -68,9 +68,11 @@
     <groupaction menu="Ready all my cards" execute="restoreAll" shortcut="F9" />
     <groupaction menu="Create Token" execute="createToken" shortcut="F10" />
     <groupaction menu="Create Synapse" execute="createSynapse" />
+    <groupaction menu="Create Army Unit" execute="createUnit" />
     <groupaction menu="End Turn" execute="endTurn" shortcut="F12" />
     <groupaction menu="STOP" execute="holdOn" shortcut="ALT+S" />
     <groupaction menu="I'm Done" execute="imDone" shortcut="ALT+D" />
+    <groupaction menu="Deck Check Tournament" execute="CheckTournamentValid" />
     <cardaction menu="Exhaust/Ready/Deep strike" execute="kneel" default="True" />
     <cardaction menu="Flip Card" execute="flipcard" shortcut="F8" />
     <cardaction menu="Infest Planet" execute="infest" shortcut="CTRL+I" />
