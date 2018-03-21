@@ -192,7 +192,7 @@ def createSynapse(group, x = 0, y = 0):
 		for i in range(quantity):
 			cards=table.create(guid, X1, 200)
 			X1-=50
-	notify("{} creates {} Token(s)".format(me,cards))
+	notify("{} creates {} Synapse(s)".format(me,cards))
 
 
 
