@@ -72,7 +72,7 @@
     <groupaction menu="End Turn" execute="endTurn" shortcut="F12" />
     <groupaction menu="STOP" execute="holdOn" shortcut="ALT+S" />
     <groupaction menu="I'm Done" execute="imDone" shortcut="ALT+D" />
-    <groupaction menu="Deck Check Tournament" execute="CheckTournamentValid" />
+    <groupaction menu="Verify Deck Tournament Format" execute="CheckTournamentValid" />
     <cardaction menu="Exhaust/Ready/Deep strike" execute="kneel" default="True" />
     <cardaction menu="Flip Card" execute="flipcard" shortcut="F8" />
     <cardaction menu="Infest Planet" execute="infest" shortcut="CTRL+I" />
