@@ -194,12 +194,12 @@ def createSynapse(group, x = 0, y = 0):
 			X1-=50
 	notify("{} creates {} Synapse(s)".format(me,cards))
 
+factionList = ['Tyranid', 'Astra Militarum', 'Chaos', 'Dark Eldar', 'Eldar', 'Space Marine', 'Ork', 'Tau', 'Necron']
 def createUnit(group, x = 0, y = 0):
 	mute()
-	choiceList = ['Tyranid', 'Astra Militarum', 'Chaos', 'Dark Eldar', 'Eldar', 'Space Marine', 'Ork', 'Tau', 'Necron']
-	choice = askChoice("For which Faction do you want to create a Unit ?", choiceList)
+	choice = askChoice("For which Faction do you want to create a Unit ?", factionList)
 	if choice == 0 : return
-	guid,quantity=askCard({'Type':'Army', 'Faction': choiceList[choice - 1] })
+	guid,quantity=askCard({'Type':'Army', 'Faction': factionList[choice - 1] })
 	if guid == None: return
 	if me.isInverted: 
 		X1=-150
@@ -753,9 +753,9 @@ def moveOneRandom(group):
 # Check Deck Tournament Validity
 #------------------------------------------------------------------------------
 
+LegacyLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle" "05-Legions of Death", "06-Deathworld Cycle"]
+ApokaLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle" "05-Legions of Death", "06-Deathworld Cycle", "APK-01-Navida Prime Cycle","APK-02-Defenders of the Faith","APK-03-Confrontation Cycle"]
 def CheckTournamentValid(group, x=0, y=0):
-	LegacyLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle" "05-Legions of Death", "06-Deathworld Cycle"]
-	ApokaLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle" "05-Legions of Death", "06-Deathworld Cycle", "APK-01-Navida Prime Cycle","APK-02-Defenders of the Faith","APK-03-Confrontation Cycle"]
 	choiceList = ['FFG', 'FFG + Apoka']
 	choice = askChoice("Which format do you want to check ?", choiceList)
 	valid = True
