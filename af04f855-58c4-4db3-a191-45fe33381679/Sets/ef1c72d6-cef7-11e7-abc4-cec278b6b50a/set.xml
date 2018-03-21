@@ -811,7 +811,7 @@ You may play Ritual events you removed from the game as if they were in your han
             <property name="Type"           value="Event"/>
             <property name="Loyalty"        value="Squad (1)"/>
             <property name="Traits"         value="Ritual. Tzeentch."/>
-            <property name="Text"           value="Interrupt: When a player places a planet in their victory display, sacrifice an army unit at a planet with no enemy army unit to remove that planet from the game instead. At the end of the next round, place the planet in that player’s victory display and draw 4 cards."/>
+            <property name="Text"           value="Interrupt: When a player places a planet in their victory display, sacrifice an army unit at a planet with no enemy army unit to remove that planet from the game instead. At the end of the next round, place the planet in that player's victory display and draw 4 cards."/>
             <property name="Keywords" value=""/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="1"/>
