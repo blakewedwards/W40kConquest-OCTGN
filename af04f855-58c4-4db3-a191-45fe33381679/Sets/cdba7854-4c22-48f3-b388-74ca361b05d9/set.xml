@@ -357,7 +357,7 @@ opponent, gain 3[RESOURCE] or draw 3 cards."/>
 				<property name="Type"           value="Planet"/>
 				<property name="Loyalty"        value=""/>
 				<property name="Traits"         value=""/>
-				<property name="Text"           value="Battle: Put a non-Elite unit into play from your discard pile or hand the last planet at your HQ."/>
+				<property name="Text"           value="Battle: Put a non-Elite unit into play from your discard pile or hand at the last planet or your HQ."/>
 				<property name="Keywords"       value=""/>
 				<property name="Unique"         value=""/>
 				<property name="Cost"           value=""/>

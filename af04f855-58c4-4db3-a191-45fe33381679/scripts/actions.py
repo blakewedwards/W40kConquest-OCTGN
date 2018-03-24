@@ -758,10 +758,10 @@ ApokaLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Plan
 def CheckTournamentValid(group, x=0, y=0):
 	choiceList = ['FFG', 'FFG + Apoka']
 	choice = askChoice("Which format do you want to check ?", choiceList)
+	if choice == 0:
+		return
 	valid = True
 	for card in me.deck:
-		if choice == 0:
-			return
 		elif choice == 1:
 			if card.set not in LegacyLegal:
 				whisper("The card {} is not tournament legal : Set= {}".format(card.Name, card.set))
