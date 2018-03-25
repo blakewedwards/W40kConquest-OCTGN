@@ -194,7 +194,24 @@ def createSynapse(group, x = 0, y = 0):
 			X1-=50
 	notify("{} creates {} Synapse(s)".format(me,cards))
 
-
+factionList = ['Tyranid', 'Astra Militarum', 'Chaos', 'Dark Eldar', 'Eldar', 'Space Marine', 'Ork', 'Tau', 'Necron']
+def createUnit(group, x = 0, y = 0):
+	mute()
+	choice = askChoice("For which Faction do you want to create a Unit ?", factionList)
+	if choice == 0 : return
+	guid,quantity=askCard({'Type':'Army', 'Faction': factionList[choice - 1] })
+	if guid == None: return
+	if me.isInverted: 
+		X1=-150
+		for i in range(quantity):
+			cards=table.create(guid, X1, -288)
+			X1+=50	
+	else:
+		X1=150
+		for i in range(quantity):
+			cards=table.create(guid, X1, 200)
+			X1-=50
+	notify("{} creates {} Unit(s)".format(me,cards))
 
 def ServoSkull(group, x=0,y=0):
 	mute()
@@ -732,3 +749,37 @@ def moveOneRandom(group):
 	card.moveTo(me.hand)
 	notify("{} randomly moves {} from their discard to their hand.".format(me, card.name))
 	
+#------------------------------------------------------------------------------
+# Check Deck Tournament Validity
+#------------------------------------------------------------------------------
+
+LegacyLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle" "05-Legions of Death", "06-Deathworld Cycle"]
+ApokaLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle" "05-Legions of Death", "06-Deathworld Cycle", "APK-01-Navida Prime Cycle","APK-02-Defenders of the Faith","APK-03-Confrontation Cycle"]
+def CheckTournamentValid(group, x=0, y=0):
+	choiceList = ['FFG', 'FFG + Apoka']
+	choice = askChoice("Which format do you want to check ?", choiceList)
+	if choice == 0:
+		return
+	valid = True
+	for card in me.deck:
+		elif choice == 1:
+			if card.set not in LegacyLegal:
+				whisper("The card {} is not tournament legal : Set= {}".format(card.Name, card.set))
+				valid = False
+				break
+		elif choice == 2:
+			if card.set not in ApokaLegal:
+				whisper("The card {} is not tournament legal : Set= {}".format(card.Name, card.set))
+				valid = False
+				break
+		else:
+			whisper("The card {} is not tournament legal : Set= {}".format(card.Name, card.set))
+			valid = False
+			break
+	if valid == True:
+		if choice == 1:
+			notify("{}'s deck is legal in a FFG tournament format".format(me))
+		elif choice == 2:
+			notify("{}'s deck is legal in a FFG + Apoka format".format(me))
+	else:
+		notify("{}'s deck does contain some invalid cards for the selected format".format(me))

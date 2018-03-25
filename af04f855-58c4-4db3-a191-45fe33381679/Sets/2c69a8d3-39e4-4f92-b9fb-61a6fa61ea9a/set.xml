@@ -1497,8 +1497,7 @@ same planet as attached unit."/>
 			<property name="Loyalty"        value=""/>
 			<property name="Traits"         value="Soldier."/>
 			<property name="Text"           value="Reaction: After an [Ork] unit you control at
-this planet resolves an attack, move it to
-an adjacent planet or your HQ."/>
+this planet resolves an attack, move it to an adjacent planet or your HQ."/>
 			<property name="Keywords"       value=""/>
 			<property name="Unique"         value=""/>
 			<property name="Cost"           value="3"/>
