@@ -753,8 +753,8 @@ def moveOneRandom(group):
 # Check Deck Tournament Validity
 #------------------------------------------------------------------------------
 
-LegacyLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle" "05-Legions of Death", "06-Deathworld Cycle"]
-ApokaLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle" "05-Legions of Death", "06-Deathworld Cycle", "APK-01-Navida Prime Cycle","APK-02-Defenders of the Faith","APK-03-Confrontation Cycle"]
+LegacyLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle", "05-Legions of Death", "06-Deathworld Cycle"]
+ApokaLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle", "05-Legions of Death", "06-Deathworld Cycle", "APK-01-Navida Prime Cycle", "APK-02-Defenders of the Faith", "APK-03-Confrontation Cycle"]
 def CheckTournamentValid(group, x=0, y=0):
 	choiceList = ['FFG', 'FFG + Apoka']
 	choice = askChoice("Which format do you want to check ?", choiceList)
@@ -762,7 +762,7 @@ def CheckTournamentValid(group, x=0, y=0):
 		return
 	valid = True
 	for card in me.deck:
-		elif choice == 1:
+		if choice == 1:
 			if card.set not in LegacyLegal:
 				whisper("The card {} is not tournament legal : Set= {}".format(card.Name, card.set))
 				valid = False
