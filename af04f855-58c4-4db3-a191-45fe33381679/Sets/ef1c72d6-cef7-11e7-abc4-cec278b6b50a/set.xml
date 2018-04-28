@@ -1125,7 +1125,7 @@ Forced Reaction: After this unit resolves its attack, move it to your HQ."/>
             <property name="Text"           value="Reaction: After this unit enters play, attach an eligible attachment from your discard pile to this unit and exhaust a target enemy limited support card."/>
             <property name="Keywords" value=""/>
             <property name="Unique"         value=""/>
-            <property name="Cost"           value=""/>
+            <property name="Cost"           value="2"/>
             <property name="Attack"         value="3"/>
             <property name="Health"         value="3"/>
             <property name="Command"        value=""/>
