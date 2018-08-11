@@ -1310,7 +1310,7 @@ Interrupt: When this unit leaves the first planet, move it to an adjacent planet
             <property name="Unique"         value=""/>
             <property name="Cost"           value="2"/>
             <property name="Attack"         value="2"/>
-            <property name="Health"         value="2"/>
+            <property name="Health"         value="3"/>
             <property name="Command"        value="1"/>
             <property name="Shield"         value=""/>
             <property name="ResourceBonus"  value=""/>
@@ -1345,7 +1345,7 @@ Interrupt: When this unit leaves the first planet, move it to an adjacent planet
             <property name="Type"           value="Attachment"/>
             <property name="Loyalty"        value="Squad (1)"/>
             <property name="Traits"         value="Weapon."/>
-            <property name="Text"           value="Attach to your warlord.
+            <property name="Text"           value="Attach to your warlord. Attached unit gets +1 HP.
 Combat Reaction: After your Warlord moves to a planet, exhaust this attachment to move an army unit you control at that planet to an adjacent planet."/>
             <property name="Keywords" value="Wargear"/>
             <property name="Unique"         value="yes"/>
@@ -1387,7 +1387,7 @@ Combat Reaction: After your Warlord moves to a planet, exhaust this attachment t
             <property name="Type"           value="Warlord"/>
             <property name="Loyalty"        value="Squad"/>
             <property name="Traits"         value="Psyker. Hybrid."/>
-            <property name="Text"           value="Reaction: After an enemy unit enters play, put a card from your hand attached facedown to that unit. Then draw a card. (Limit twice per round.)
+            <property name="Text"           value="Reaction: After an enemy unit enters play, put a card from your hand attached facedown to that unit. Then draw a card. (Limit once per round.)
 As an interrupt when the attached unit leaves play, you may deploy the facedown card at the same planet."/>
             <property name="Keywords"       value=""/>
             <property name="Unique"         value="yes"/>
@@ -1491,8 +1491,8 @@ Interrupt: When attached unit leaves play, exhaust a target enemy army unit at t
             <property name="Type"           value="Support"/>
             <property name="Loyalty"        value="Squad (1)"/>
             <property name="Traits"         value="Location. Genestealer."/>
-            <property name="Text"           value="Combat Action: Exhaust this support to deal 1 damage to a unit with a facedown attached card."/>
-            <property name="Keywords" value="Ambush."/>
+            <property name="Text"           value="Your warlord's ability can trigger twice per round instead of once. Combat Action: Exhaust this support to deal 1 damage to a unit with a facedown attached card."/>
+            <property name="Keywords" value=""/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="1"/>
             <property name="Attack"         value=""/>
@@ -1514,6 +1514,7 @@ Interrupt: When attached unit leaves play, exhaust a target enemy army unit at t
             <property name="Traits"         value="Tank. Vostroya. Vehicle."/>
             <property name="Text"           value="While at a planet with a unit with faith you control, this unit gets +1 ATK.
                 Reaction: After you play a shield on this unit, place 1 faith on it."/>
+            <property name="Keywords" value="No Wargear attachments."/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="2"/>
             <property name="Attack"         value="2"/>
@@ -1532,13 +1533,12 @@ Interrupt: When attached unit leaves play, exhaust a target enemy army unit at t
             <property name="Type"           value="Army"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Soldier."/>
-            <property name="Text"           value="Each other unit you control at this planet cannot be damaged by Area Effect.
-                Reaction: After an attachment card is discarded, Deep Strike this unit to deploy that attachment from your discard pile attached to this unit."/>
+            <property name="Text"           value="Reaction: After an attachment card is discarded, Deep Strike this unit to deploy that attachment from your discard pile attached to this unit."/>
             <property name="Keywords" value="Deep Strike (1)."/>
             <property name="Unique"         value=""/>
-            <property name="Cost"           value="2"/>
-            <property name="Attack"         value="2"/>
-            <property name="Health"         value="2"/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value="1"/>
+            <property name="Health"         value="3"/>
             <property name="Command"        value="1"/>
             <property name="Shield"         value=""/>
             <property name="ResourceBonus"  value=""/>
@@ -1613,7 +1613,7 @@ Reaction: After attached unit is assigned damage, exhaust it and this attachment
             <property name="Type"           value="Event"/>
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Tactic."/>
-            <property name="Text"           value="If the effects of this event are cancelled, draw 2 cards.
+            <property name="Text"           value="If all effects of this event are cancelled, draw 2 cards.
                 Action: Exhaust a target army unit. Then, you may sacrifice a unit to rout it."/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="2"/>
@@ -1634,11 +1634,11 @@ Reaction: After attached unit is assigned damage, exhaust it and this attachment
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Wargear. Experimental."/>
             <property name="Text"           value="Attach to an army unit.
-Attached unit gets +1 ATK and +1 HP.
+Attached unit gets +1 HP.
 Interrupt: When a unit is assigned damage by an attack at this planet, reassign 1 of that damage to another unit controlled by the same player at this planet."/>
             <property name="Keywords" value=""/>
             <property name="Unique"         value="Yes"/>
-            <property name="Cost"           value="3"/>
+            <property name="Cost"           value="2"/>
             <property name="Attack"         value=""/>
             <property name="Health"         value=""/>
             <property name="Command"        value=""/>
@@ -1697,7 +1697,7 @@ Interrupt: When a unit is assigned damage by an attack at this planet, reassign 
             <property name="Type"           value="Event"/>
             <property name="Loyalty"        value="Loyal"/>
             <property name="Traits"         value="Tactic."/>
-            <property name="Text"           value="If the effects of the event are cancelled, gain 2 resources. 
+            <property name="Text"           value="If all effects of the event are cancelled, gain 2 resources. 
                 Exhaust an army unit. Then you may sacrifice an attachment to exhaust another target army unit at the same planet."/>
             <property name="Keywords" value=""/>
             <property name="Unique"         value=""/>
