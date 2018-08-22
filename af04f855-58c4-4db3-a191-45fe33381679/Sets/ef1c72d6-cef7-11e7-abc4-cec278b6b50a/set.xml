@@ -1281,7 +1281,7 @@ Interrupt: When this unit leaves the first planet, move it to an adjacent planet
             <property name="StartingHand"     value="7"/>
             <property name="StartingResources" value="7"/>
             <property name="Squad"         value="43"/>
-            <alternate name="Commander Farsight" type="bloodied">
+            <alternate name="Trazyn the Infinite" type="bloodied">
                 <property name="Faction"        value="Necron"/>
                 <property name="Type"           value="Warlord"/>
                 <property name="Loyalty"        value="Squad"/>
