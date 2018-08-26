@@ -1400,8 +1400,8 @@ As an interrupt when the attached unit leaves play, you may deploy the facedown 
             <property name="CardBonus"      value=""/>
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="60"/>
-            <property name="StartingHand"     value="7"/>
-            <property name="StartingResources" value="7"/>
+            <property name="StartingHand"     value="6"/>
+            <property name="StartingResources" value="6"/>
             <property name="Squad"         value="44"/>
             <alternate name="Magus Harid" type="bloodied">
                 <property name="Faction"        value="Tyranid"/>
