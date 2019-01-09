@@ -7,9 +7,9 @@
             <property name="Type"           value="Warlord"/>
             <property name="Loyalty"        value="Squad"/>
             <property name="Traits"         value="Soldier. Imperial Fist."/>
-            <property name="Text"           value="Reduce the cost of supports you deploy by 1 (min 1).
-If a support card you control has more damage on it than its cost, sacrifice it.
-Forced Interrupt: When a unit you control takes damage equal or lower than its remaining HP, move 1 of that damage to a support card you control."/>
+            <property name="Text"           value="Reduce by 1 the cost of the first support you deploy each round.
+If a support you control has more damage on it than its cost, sacrifice it.
+Forced Interrupt: When an army unit you control takes damage equal or lower than its remaining HP, move 1 of that damage to a support card you control."/>
             <property name="Keywords"       value=""/>
             <property name="Unique"         value="yes"/>
             <property name="Cost"           value=""/>
