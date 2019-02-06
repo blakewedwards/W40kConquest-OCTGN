@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="APK-Tournament-Pledges" id="44ea9faa-2319-11e9-ab14-d663bd873d93" gameId="af04f855-58c4-4db3-a191-45fe33381679" gameVersion="2.0.1.0" version="1.10">
+    <cards>
+        <!-- Astra Militarum -->
+         <card id="c7f80490-231a-11e9-ab14-d663bd873d93" name="Munitorum Support">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Pledge."/>
+            <property name="Text"           value="Once per round you may deploy a card on this support as if it were in your hand.
+Reaction: After you deploy this support, place a M35 Galaxy Lasgun, a Hot-Shot Laspistol, a Bodyguard, a Seal of the Ebon Chalice and a Sanctified Bolter on this card."/>
+            <property name="Keywords" value="Preparation."/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="1"/>
+        </card>
+         <card id="c7f8085a-231a-11e9-ab14-d663bd873d93" name="Senatorum Support">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Pledge."/>
+            <property name="Text"           value="Your Guardsman token limit is set to 2.
+Put 2 Guardsman tokens into play at your HQ when you deploy this support.
+Forced Reaction: After a Guardsman token you control is destroyed put a Guardsman token into play at your HQ."/>
+            <property name="Keywords" value="Preparation."/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="3"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="2"/>
+        </card>
+         <card id="c7f80b3e-231a-11e9-ab14-d663bd873d93" name="Commissariat Support">
+            <property name="Faction"        value="Astra Militarum"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Pledge."/>
+            <property name="Text"           value="Reaction: After you lose a command struggle, put a Guardsman token into play at that planet."/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="1"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="3"/>
+        </card>
+        <!-- Necrons -->
+         <card id="c7f80cec-231a-11e9-ab14-d663bd873d93" name="Sautekh Dynasty">
+            <property name="Faction"        value="Necron"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Pledge."/>
+            <property name="Text"           value="Reaction: After you deploy a non-[N] unit, exhaust this support to give it +X HP until the end of the round. X equal the number of cards of different factions in your discard pile."/>
+            <property name="Keywords" value="Preparation."/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="4"/>
+        </card>
+        <card id="c7f80e2c-231a-11e9-ab14-d663bd873d93" name="Novokh Dynasty">
+            <property name="Faction"        value="Necron"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Pledge."/>
+            <property name="Text"           value="Reaction: After a non-[H] Warrior unit enters your discard pile from play, put a [N] on this support. Then if there is 2 [N] on this support, sacrifice it to search your deck for up to 2 Novokh cards, reveal them, put them to your hand and shuffle your deck."/>
+            <property name="Keywords" value="Preparation."/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="5"/>
+        </card>
+        <card id="c7f81200-231a-11e9-ab14-d663bd873d93" name="Maynarkh Dynasty">
+            <property name="Faction"        value="Necron"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Pledge."/>
+            <property name="Text"           value="This card (in play) may be used as a shield card with 2 shield icons.
+Reaction: After you deploy this support, look at the facedown planets. You may then switch their positions."/>
+            <property name="Keywords" value="Preparation."/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="6"/>
+        </card>
+<!-- ORKS -->
+        <card id="c7f8135e-231a-11e9-ab14-d663bd873d93" name="WAAAGH! Arbuttz">
+            <property name="Faction"        value="Ork"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Pledge."/>
+            <property name="Text"           value="Interrupt: When you deploy an attachment, deal 1 damage to attached unit to reduce its cost by 1. Then Rally 6 an attachment, add it to your hand."/>
+            <property name="Keywords" value="Preparation."/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="7"/>
+        </card>
+                <card id="c7f8148a-231a-11e9-ab14-d663bd873d93" name="WAAAGH! Zanzag">
+            <property name="Faction"        value="Ork"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Pledge."/>
+            <property name="Text"           value="While attacking an enemy warlord, your warlord gets +1 ATK.
+While attacking your warlord, enemy warlords get -1 ATK."/>
+            <property name="Keywords" value="Preparation."/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="8"/>
+        </card>
+            <card id="c7f815b6-231a-11e9-ab14-d663bd873d93" name="WAAAGH! Ungskar">
+            <property name="Faction"        value="Ork"/>
+            <property name="Type"           value="Support"/>
+            <property name="Loyalty"        value="Loyal"/>
+            <property name="Traits"         value="Pledge."/>
+            <property name="Text"           value="You cannot include non-[O] units or multiple copies of a non-signature unit in your deck.
+Interrupt: When a non-signature army unit you control is destroyed, gain 1 [R]."/>
+            <property name="Keywords" value="Preparation."/>
+            <property name="Unique"         value="yes"/>
+            <property name="Cost"           value="0"/>
+            <property name="Attack"         value=""/>
+            <property name="Health"         value=""/>
+            <property name="Command"        value=""/>
+            <property name="Shield"         value=""/>
+            <property name="ResourceBonus"  value=""/>
+            <property name="CardBonus"      value=""/>
+            <property name="ErrataText"     value=""/>
+            <property name="CardNumber"     value="9"/>
+        </card>
+
+    </cards>
+</set>

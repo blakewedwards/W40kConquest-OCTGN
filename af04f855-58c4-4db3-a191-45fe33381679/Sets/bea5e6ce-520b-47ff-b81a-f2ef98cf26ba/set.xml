@@ -600,7 +600,7 @@ Reaction: After your warlord resolves an attack against a warlord, put a [U] on 
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="While there is a [I] on this support, the first shield card with 1 printed shield icon you play each round gains 1 shield icon.
 Reaction: After you win a battle at the first planet with your warlord, put a [I] on this support."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value="yes"/>
             <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
@@ -618,7 +618,7 @@ Reaction: After you win a battle at the first planet with your warlord, put a [I
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="Action: Place 1 F on each AM unit you control at a first planet, if that planet shares a common type with two planets in your opponent victory your warlord gains 'Interrupt: When this unit is assigned damage, prevent 1 of that damage.' until the end of a battle. Max 1 per round."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value="yes"/>
             <property name="Cost"           value="1"/>
             <property name="Attack"         value=""/>
@@ -673,7 +673,7 @@ Reaction: After you win a battle at the first planet with your warlord, put a [I
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="While each unit you control has the Harlequin trait, your warlord gets +3 HP.
 Reaction: After a Harlequin unit is assigned damage at the same planet as your warlord, exhaust this support to reassign 1 of that damage to your warlord."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value="yes"/>
             <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
@@ -692,7 +692,7 @@ Reaction: After a Harlequin unit is assigned damage at the same planet as your w
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="While there are 5 [S] on this support, you may deploy a unit with printed cost 3 or lower from your hand at a non-first planet as though it had Ambush once per phase.
 Reaction: After you Deep Strike or Ambush a card, place a [S] on this support."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="1"/>
             <property name="Attack"         value=""/>
@@ -710,7 +710,7 @@ Reaction: After you Deep Strike or Ambush a card, place a [S] on this support."/
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="Reaction: After you deploy a Wargear, place a [B] on this support. Then if there are 3 [B] or more on this support, Rally 6 an attachment, add it to your hand."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
@@ -746,7 +746,7 @@ Reaction: After you Deep Strike or Ambush a card, place a [S] on this support."/
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="Interrupt: When you deploy an Abomination or Scholar unit, exhaust this support to reduce its cost by 1."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value="yes"/>
             <property name="Cost"           value="1"/>
             <property name="Attack"         value=""/>
@@ -765,7 +765,7 @@ Reaction: After you Deep Strike or Ambush a card, place a [S] on this support."/
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="Target a non-first planet and choose a secret number while deploying this card.
 Forced Interrupt: When that planet is captured, reveal the secret number, if it is odd the capturing player must sacrifice a unit, otherwise they may draw 3 cards."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value="yes"/>
             <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
@@ -784,7 +784,7 @@ Forced Interrupt: When that planet is captured, reveal the secret number, if it 
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="Secretly choose a planet when you deploy this support.
 Interrupt: When your opponent captures the chosen planet, reveal your choice to have them choose either to: deal 5 indirect damage among units they controls, sacrifice a unit or forgo the capture."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value="yes"/>
             <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
@@ -822,7 +822,7 @@ Combat Action: Exhaust an Elite unit you control at a planet to move it to this 
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="When you deploy this support, choose a trait among: Nurgle, Khorne, Slaanesh or Tzeentch.
 Reaction: After the deploy phase begins, Rally 6 a card with the chosen trait, then deploy it at a target planet reducing its cost by 1. Use this ability only if each unit you control shares the chosen trait."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value="yes"/>
             <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
@@ -840,7 +840,7 @@ Reaction: After the deploy phase begins, Rally 6 a card with the chosen trait, t
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="Reaction: After your warlord is assigned damage, exhaust this support to prevent all of that damage. At the end of the phase, deal an amount of damage equal to the damage prevented to your warlord."/>
-            <property name="Keywords" value="Deep Strike (0)"/>
+            <property name="Keywords" value="Deep Strike (0). Preparation."/>
             <property name="Unique"         value="yes"/>
             <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
@@ -859,7 +859,7 @@ Reaction: After the deploy phase begins, Rally 6 a card with the chosen trait, t
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="You cannot sacrifice tokens.
 Reaction: After the deploy phase ends, both players set their command dial then reveal it. Place 2 Cultist tokens into play at the planet you chose. Then if your opponent chose the same planet, they may choose either to destroy one of those tokens or take control of it."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value="yes"/>
             <property name="Cost"           value="2"/>
             <property name="Attack"         value=""/>
@@ -877,7 +877,7 @@ Reaction: After the deploy phase ends, both players set their command dial then 
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="Reaction: After you deploy this support, search your deck for a non-signaure non-hardpoint [T] attachment, reveal it, add it to your hand and shuffle your deck."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
@@ -896,7 +896,7 @@ Reaction: After the deploy phase ends, both players set their command dial then 
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="If there are 3 [V] on this support, sacrifice it.
 Reaction: After the command phase ends, put a Defense Battery into play from the card collection at a planet without Defense Battery you control and place a [V] on this support."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value="yes"/>
             <property name="Cost"           value="1"/>
             <property name="Attack"         value=""/>
@@ -915,7 +915,7 @@ Reaction: After the command phase ends, put a Defense Battery into play from the
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="While there are 2 [R] on this support, you may use it from play as a shield card with 4 shield icons.
 Reaction: After your opponent captures a planet, place a [R] on this support."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value="yes"/>
             <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
@@ -971,7 +971,7 @@ Combat Action: Exhaust this unit to move a card in reserve you control either: f
             <property name="Loyalty"        value=""/>
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="Reaction: After you capture a planet, place a [T] on this support. Then if there are 2 [T] or more on this support, put a Termagant token into play at each planet."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="1"/>
             <property name="Attack"         value=""/>
@@ -990,7 +990,7 @@ Combat Action: Exhaust this unit to move a card in reserve you control either: f
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="While there are 4 [T] on this support, each Hive-mind unit you control at a planet with a warlord or synapse unit you control gets +1 HP.
 Reaction: After you deploy a Hive-mind unit, put a [T] on this support."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
@@ -1009,7 +1009,7 @@ Reaction: After you deploy a Hive-mind unit, put a [T] on this support."/>
             <property name="Traits"         value="Pledge."/>
             <property name="Text"           value="Reduce damage dealt by Area Effect to 1.
 Reaction: After you deploy this support, infest a target planet."/>
-            <property name="Keywords" value=""/>
+            <property name="Keywords" value="Preparation."/>
             <property name="Unique"         value=""/>
             <property name="Cost"           value="0"/>
             <property name="Attack"         value=""/>
@@ -1062,7 +1062,7 @@ Sowing Chaos, Smasha Gun Battery, The Prince’s Might and Purveyor of Hubris ca
         <card id="282c0a72-fef0-11e8-8eb2-f2801f1b9fd1" name="Maksim's Squadron">
             <property name="Faction"        value="Astra Militarum"/>
             <property name="Type"           value="Army"/>
-            <property name="Loyalty"        value=""/>
+            <property name="Loyalty"        value="Squad (4)"/>
             <property name="Traits"         value="Vehicle. Tank. Vostroya."/>
             <property name="Text"           value="While there are 2 [R] on this support, you may use it from play as a shield card with 4 shield icons.
 Reaction: After your opponent captures a planet, place a [R] on this support."/>
@@ -1076,7 +1076,8 @@ Reaction: After your opponent captures a planet, place a [R] on this support."/>
             <property name="ResourceBonus"  value=""/>
             <property name="CardBonus"      value=""/>
             <property name="ErrataText"     value=""/>
-            <property name="CardNumber"     value="54"/>
+            <property name="Copies"     value="4"/>
+            <property name="Squad"          value="28"/>
         </card>
         <card id="282c0efa-fef0-11e8-8eb2-f2801f1b9fd1" name="Ardent Auxilliaries">
             <property name="Faction"        value="Tau"/>
@@ -1097,10 +1098,10 @@ Reaction: After this unit commits, ready it."/>
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="55"/>
         </card>
-        <card id="282c1080-fef0-11e8-8eb2-f2801f1b9fd1" name="Ba'ar Zuls Cleavers">
+        <card id="282c1080-fef0-11e8-8eb2-f2801f1b9fd1" name="Ba'ar Zul's Cleavers">
             <property name="Faction"        value="Chaos"/>
             <property name="Type"           value="Army"/>
-            <property name="Loyalty"        value=""/>
+            <property name="Loyalty"        value="Squad (4)"/>
             <property name="Traits"         value="Warrior. Khorne. World Eaters."/>
             <property name="Text"           value="Action: Deal 2 damage to this unit to have it get +2 ATK for its next attack this phase. (Limit once per phase)."/>
             <property name="Keywords" value=""/>
@@ -1114,6 +1115,8 @@ Reaction: After this unit commits, ready it."/>
             <property name="CardBonus"      value=""/>
             <property name="ErrataText"     value=""/>
             <property name="CardNumber"     value="56"/>
+            <property name="Copies"     value="4"/>
+            <property name="Squad"      value="19"/>
         </card>
         <card id="282c11d4-fef0-11e8-8eb2-f2801f1b9fd1" name="Kroot Hunter">
             <property name="Faction"        value="Tau"/>
