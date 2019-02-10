@@ -812,5 +812,5 @@ def revealSecretNumber(group, x=0, y=0):
 	if chosenNumber != None:
 		notify("{} has chosen {} as a secret number".format(me, chosenNumber))
 	else:
-		notify("{} doesn't have any secret number chosen".format(chosenNumber))
+		whisper("You have not chosen a secret number")
 	return
