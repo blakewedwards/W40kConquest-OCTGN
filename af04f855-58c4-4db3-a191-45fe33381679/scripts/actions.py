@@ -738,10 +738,6 @@ def searchTop(group):
 	notify("{} placed the {} remaining cards to the bottom of his or her deck.".format(me,searchAmount))
 	if len(me.deck) == 0: notify("**{} was lost in the warp, he looses the game (last card drawn).**".format(me))
 
-			
-
- 
-	
 def reshuffle(group):
 	count = None
 	
@@ -770,7 +766,7 @@ def moveOneRandom(group):
 #------------------------------------------------------------------------------
 
 LegacyLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle", "05-Legions of Death", "06-Deathworld Cycle"]
-ApokaLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle", "05-Legions of Death", "06-Deathworld Cycle", "APK-01-Navida Prime Cycle", "APK-02-Defenders of the Faith", "APK-03-Confrontation Cycle"]
+ApokaLegal=["01-Core Set", "02-Warlord Cycle", "03-The Great Devourer", "04-Planetfall Cycle", "05-Legions of Death", "06-Deathworld Cycle", "APK-01-Navida Prime Cycle", "APK-02-Defenders of the Faith", "APK-03-Confrontation Cycle", "APK-04-Chronicles of Heroes", "APK-Tournament-Pledges"]
 def CheckTournamentValid(group, x=0, y=0):
 	choiceList = ['FFG', 'FFG + Apoka']
 	choice = askChoice("Which format do you want to check ?", choiceList)
@@ -799,3 +795,22 @@ def CheckTournamentValid(group, x=0, y=0):
 			notify("{}'s deck is legal in a FFG + Apoka format".format(me))
 	else:
 		notify("{}'s deck does contain some invalid cards for the selected format".format(me))
+
+#------------------------------------------------------------------------------
+# Choose secret Number
+#------------------------------------------------------------------------------
+
+chosenNumber = None
+def askSecretNumber(group, x=0, y=0):
+	global chosenNumber
+	chosenNumber = askInteger("Choose a secret number", 0)
+	if chosenNumber != None:
+		notify("{} has chosen a secret number".format(me))
+	return
+
+def revealSecretNumber(group, x=0, y=0):
+	if chosenNumber != None:
+		notify("{} has chosen {} as a secret number".format(me, chosenNumber))
+	else:
+		whisper("You have not chosen a secret number")
+	return
